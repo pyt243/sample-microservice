@@ -146,6 +146,12 @@ app.get('/movie/:id/reviews',(req,res)=>{
     /* Route to get reviews of a movie */
 })
 
+app.post('movie/:id/rate',(req,res)=>{
+    /* Route to post a rating of a movie */
+});
+
+
+
 /* 
 Other functionalities can be added based on the scope and relevance for your application. The ones shown above are samples to give a brief 
 idea of how to design the functionalities/routes for a microservice.
